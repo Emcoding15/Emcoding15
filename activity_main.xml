@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 1"/>
+
+
+    <Button
+        android:id="@+id/secbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="BUTTON 2" />
+
+    <Button
+        android:id="@+id/thirdbtn"
+        android:layout_below="@id/secbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 3"/>
+    <Button
+        android:id="@+id/fourthbtn"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/firstbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 4"/>
+    <Button
+        android:id="@+id/fifthbtn"
+        android:layout_marginLeft="300dp"
+        android:layout_below="@id/firstbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 5"/>
+    <Button
+        android:id="@+id/sixthbtn"
+        android:layout_below="@id/fifthbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 6"/>
+    <Button
+        android:id="@+id/sevbtn"
+        android:layout_below="@id/sixthbtn"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 7"/>
+    <Button
+        android:id="@+id/eigthbtn"
+        android:layout_below="@id/sevbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 8"/>
+    <Button
+        android:id="@+id/ninthbtn"
+        android:layout_below="@id/sevbtn"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 9"/>
+    <Button
+        android:id="@+id/tenbtn"
+        android:layout_below="@id/ninthbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 10"/>
+    <Button
+        android:id="@+id/elevenbtn"
+        android:layout_below="@id/ninthbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 11"/>
+    <Button
+        android:id="@+id/twelvebtn"
+        android:layout_below="@id/elevenbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 12"/>
+    <Button
+        android:id="@+id/thirteen"
+        android:layout_below="@id/twelvebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 13"/>
+    <Button
+        android:id="@+id/fourteenth"
+        android:layout_below="@id/thirteen"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 14"/>
+    <Button
+        android:id="@+id/fifteenth"
+        android:layout_below="@id/fourteenth"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON 15"/>
+
+
+
+
+</RelativeLayout>
